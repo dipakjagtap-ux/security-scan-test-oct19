@@ -1,10 +1,14 @@
-
 {
-  "name": "security-scan-test",
+  "name": "testhub-security-scan-fixture",
   "version": "1.0.0",
-  "private": true           ,
-  "description": "Dummy repository for security scan testing",
+  "private": true,
+  "description": "Disposable fixture to test source, secret, and dependency scanning",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "dependencies": {
-    "lodash": "4.            17.20"
+    "axios": "0.21.1",
+    "lodash": "4.17.15"
   }
 }
